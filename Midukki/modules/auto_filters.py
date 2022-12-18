@@ -712,7 +712,7 @@ async def auto_filters(client: Midukki_RoboT, message: message()):
                                 button()
                                     (
                                         f"{filesize} {filename}",
-                                            url=get_shortlink(f"http://telegram.dog/{Bots.BOT_USERNAME}?start=muhammedrk_-_{file_id}_-_{message.chat.id}")
+                                            url=get_shortlink(f"https://telegram.dog/{Bots.BOT_USERNAME}?start=muhammedrk_-_{file_id}_-_{message.chat.id}")
                                     )
                             ]
                         )
@@ -722,7 +722,7 @@ async def auto_filters(client: Midukki_RoboT, message: message()):
                                 button()
                                     (
                                         f"{filesize} {filename}",
-                                            url=f"http://telegram.dog/{Bots.BOT_USERNAME}?start=muhammedrk_-_{file_id}_-_{message.chat.id}"
+                                            url=f"https://telegram.dog/{Bots.BOT_USERNAME}?start=muhammedrk_-_{file_id}_-_{message.chat.id}"
                                     )
                             ]
                         )
@@ -733,12 +733,12 @@ async def auto_filters(client: Midukki_RoboT, message: message()):
                                 button()
                                     (
                                         f"{filesize}",
-                                            url=await get_shortlink(f"http://telegram.dog/{Bots.BOT_USERNAME}?start=muhammedrk_-_{file_id}_-_{message.chat.id}")
+                                            url=await get_shortlink(f"https://telegram.dog/{Bots.BOT_USERNAME}?start=muhammedrk_-_{file_id}_-_{message.chat.id}")
                                     ),
                                 button()
                                     (
                                         f"{filename}",
-                                            url=await get_shortlink(f"http://telegram.dog/{Bots.BOT_USERNAME}?start=muhammedrk_-_{file_id}_-_{message.chat.id}")
+                                            url=await get_shortlink(f"https://telegram.dog/{Bots.BOT_USERNAME}?start=muhammedrk_-_{file_id}_-_{message.chat.id}")
                                     )
                             ]
                         )
@@ -748,12 +748,12 @@ async def auto_filters(client: Midukki_RoboT, message: message()):
                                 button()
                                     (
                                         f"{filesize}",
-                                            url=f"http://telegram.dog/{Bots.BOT_USERNAME}?start=muhammedrk_-_{file_id}_-_{message.chat.id}"
+                                            url=f"https://telegram.dog/{Bots.BOT_USERNAME}?start=muhammedrk_-_{file_id}_-_{message.chat.id}"
                                     ),
                                 button()
                                     (
                                         f"{filename}",
-                                            url=f"http://telegram.dog/{Bots.BOT_USERNAME}?start=muhammedrk_-_{file_id}_-_{message.chat.id}"
+                                            url=f"https://telegram.dog/{Bots.BOT_USERNAME}?start=muhammedrk_-_{file_id}_-_{message.chat.id}"
                                     )
                             ]
                         )
